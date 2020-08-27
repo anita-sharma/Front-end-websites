@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#div1{
+	width: 100%;
+	height: 8px;
+	background: blue;
+}
+/*header*/
+#block{
+	height: 50px;
+	width: 100%;
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+#block #div2 {
+	display: inline-block;
+}
+#img{
+	display: none;
+	position: absolute;
+}
+#block #div2 img{
+	width: 30px;
+	height: 30px;
+	margin-top: 0.6em;
+	margin-left: 40px;
+}
+
+#block #div2 h1{
+	color: black; 
+	font-size: 25px;
+	margin-top: -1.2em;
+	margin-left: 2.8em;
+	font-style: sans-serif;
+}
+#block #div3 {
+	display: inline-block;
+	float: right;
+}
+#block #div3 a
+{
+	text-decoration: none;
+	color: black;
+	margin-left: 1em;
+	line-height: 50px;
+	height: 50px;
+	margin-right: 2em;
+	font-weight: bolder;
+}
+/*seo|Sem|smo*/
+#maindiv img{
+	width: 100%;
+	height: 300px;
+}
+#maindiv #div4 h1{
+	margin: 0;
+	position: absolute;
+	margin-top: -6em;
+	margin-left: 12em;
+
+}
+#maindiv #div4 h2{
+	position: absolute;
+	margin-top: -6.3em;
+	margin-left: 16em;
+
+}
+/*what we do*/
+#div5 {
+	width: 100%;
+	height: 160px;
+	background: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	margin-top: -0.2em;
+}
+#div5 h1{
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 13em;
+	padding-top: 0.5em;
+	
+}
+
+#div5 h2{
+	margin-left: 6em;
+	margin-top: 0.7em;
+}
+
+/*our services*/
+#div6{
+	background-color: #EACBC5 ;
+	width: 100%;
+	height: 70vh;
+	
+}
+#div6 div
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+#div6 h1{
+	text-align: center;
+	padding-top: 1em;
+}
+#div6 #divdiv1{
+	margin-top: 2.5em;
+	
+}
+
+#div6 #divdiv2{
+	
+	margin-top: 3em;
+}
+
+/*contact us*/
+#div7 h1{
+	text-align: center;
+	margin-top: 2em;
+}
+
+#div7 div{
+	margin-left: 15em;
+	display: inline-block;
+	margin-top: 1em;
+}
+footer{
+	text-align: center;
+	background-color: #333;
+	width: 100%;
+	height: 50px;
+	color: white;
+	margin-top: 2em;
+}
+footer p{
+	line-height: 50px;
+}
+
+/*max-width*/
+
+@media(max-width: 300px)
+{
+	#block #div3 a{
+		display: block;
+	}
+	#block img{
+	display: block;
+	}
+	#block #div3{
+		background: #333;
+
+	}
+	#block #div3 a{
+		color: white;
+		margin-left: 0em;
+	}
+
+
+}
