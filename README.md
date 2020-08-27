@@ -6,6 +6,6 @@
 <h1>Food3</h1>
 <a href="https://anita-sharma.github.io/Front-end-websites/foodWebsites/food3/index.html">Food3</a>
 <h1>Portfolio</h1>
-<a href="https://anita-sharma.github.io/Front-end-websites/foodWebsites/portfolio/index.html">Portfolio</a>
+<a href="https://anita-sharma.github.io/Front-end-websites/portfolio/index.html">Portfolio</a>
 <h1>Website</h1>
-<a href="https://anita-sharma.github.io/Front-end-websites/foodWebsites/website/index.html">website</a>
+<a href="https://anita-sharma.github.io/Front-end-websites/website/index.html">website</a>
